@@ -81,6 +81,7 @@ def crawl(
     try:
         logger.debug(f'Crawling: {url}')
         response = requests.get(url)
+        response.encoding = None
     except requests.exceptions.RequestException as e:
         logger.error(f'❌ Request error for {url}: {e}')
         return []
@@ -100,7 +101,7 @@ def crawl(
     # -------------------------------
     # Create BS4 instance for parsing
     # -------------------------------
-    soup = BeautifulSoup(response.text, 'html.parser')
+    soup = BeautifulSoup(response.text, 'html.parser', from_encoding='cp949')
 
     # Strip unwanted tags
     for script in soup(['script', 'style']):
@@ -137,7 +138,7 @@ def crawl(
             # ------------------------------
             # Write markdown content to file
             # ------------------------------
-            with open(file_path, 'w') as f:
+            with open(file_path, 'w', encoding='utf8') as f:
                 f.write(output)
         else:
             logger.error(f'❌ Empty content for {file_path}. Please check your targets skipping.')
