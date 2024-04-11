@@ -1,0 +1,20 @@
+기본 사용법
+======
+
+***토폴로지*** 메뉴의 기본 동작 방법에 대해 알아보세요.
+
+![애플리케이션 토폴로지 기본 동작](/img/topology-control.png)
+
+토폴로지 화면의 기본 동작은 사용자 편의성을 위해 다음과 같은 기능을 제공합니다.
+
+* 자동 갱신: 기본 30초 간격의 자동 갱신을 통해 토폴로지의 변경 사항을 자동으로 업데이트합니다.
+
+노트갱신 간격을 변경하려면 오른쪽 위에 ![설정 아이콘](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmb3VuZGF0aW9uPSJbb2JqZWN0IE9iamVjdF0iIGNsYXNzPSJJbm5lckljb25zdHlsZWRfX0ljb24tY2gtZnJvbnRfX3NjLTE5N2g1YmItMCBka0RyT3IiIGRlZmF1bHRvcGFjaXR5PSIxIiBob3ZlcmVkb3BhY2l0eT0iMSIgbWFyZ2ludG9wPSIwIiBtYXJnaW5yaWdodD0iMCIgbWFyZ2luYm90dG9tPSIwIiBtYXJnaW5sZWZ0PSIwIiB3aXRodGhlbWU9InRydWUiPjxwYXRoIGZpbGw9IiM3OTc5NzkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNS44MzM1NCAxMC4wMDAxQzUuODMzNTQgNy42OTkzOSA3LjY5ODgxIDUuODMzNDIgMTAuMDAwMiA1LjgzMzQyQzEyLjMwMDkgNS44MzM0MiAxNC4xNjY5IDcuNjk5MzkgMTQuMTY2OSAxMC4wMDAxQzE0LjE2NjkgMTIuMzAwOCAxMi4zMDA5IDE0LjE2NjcgMTAuMDAwMiAxNC4xNjY3QzcuNjk4ODEgMTQuMTY2NyA1LjgzMzU0IDEyLjMwMDggNS44MzM1NCAxMC4wMDAxWk0xOC4zMzM1IDExLjI1MDFWOC43NTAwOEwxNi40NzUyIDguNDQwMDhDMTYuMzA5NCA3Ljc1NTA4IDE2LjAzOTQgNy4xMTE3NSAxNS42Nzk0IDYuNTI2NzVMMTYuNzc2IDQuOTkwOTFMMTUuMDA4NSAzLjIyMzQxTDEzLjQ3MjcgNC4zMjA5MUMxMi44ODc3IDMuOTYwOTEgMTIuMjQ1MiAzLjY5MDkxIDExLjU2MDIgMy41MjUwOEwxMS4yNTAyIDEuNjY2NzVIOC43NTAyTDguNDQwMiAzLjUyNTA4QzcuNzU1MiAzLjY5MDkxIDcuMTExODcgMy45NjA5MSA2LjUyNjg3IDQuMzIwOTFMNC45OTEwNCAzLjIyMzQxTDMuMjIzNTQgNC45OTA5MUw0LjMyMDIgNi41MjY3NUMzLjk2MTA0IDcuMTExNzUgMy42OTAyIDcuNzU1MDggMy41MjUyIDguNDQwMDhMMS42NjY4NyA4Ljc1MDA4VjExLjI1MDFMMy41MjUyIDExLjU2MDFDMy42OTAyIDEyLjI0NTEgMy45NjEwNCAxMi44ODg0IDQuMzIwMiAxMy40NzM0TDMuMjIzNTQgMTUuMDA5Mkw0Ljk5MTA0IDE2Ljc3NjdMNi41MjY4NyAxNS42NzkyQzcuMTExODcgMTYuMDM4NCA3Ljc1NTIgMTYuMzA5MiA4LjQ0MDIgMTYuNDc1MUw4Ljc1MDIgMTguMzMzNEgxMS4yNTAyTDExLjU2MDIgMTYuNDc1MUMxMi4yNDUyIDE2LjMwOTIgMTIuODg3NyAxNi4wMzg0IDEzLjQ3MjcgMTUuNjc5MkwxNS4wMDg1IDE2Ljc3NjdMMTYuNzc2IDE1LjAwOTJMMTUuNjc5NCAxMy40NzM0QzE2LjAzOTQgMTIuODg4NCAxNi4zMDk0IDEyLjI0NTEgMTYuNDc1MiAxMS41NjAxTDE4LjMzMzUgMTEuMjUwMVoiPjwvcGF0aD48L3N2Zz4=)을 선택한 다음 원하는 시간을 입력하세요. 5초에서 5분까지 설정할 수 있습니다. 브라우저에서 새로 고침하면 최신 정보로 업데이트할 수 있습니다.
+* 줌인/줌아웃: 마우스 휠을 통해 토폴로지를 확대 또는 축소할 수 있습니다. 노드 수가 많은 경우 원하는 사이로 토폴로지를 표현할 수 있습니다. 줌인/줌아웃 레벨은 내부 설정에 유지됩니다.
+* 노드 드래그: 노드를 마우스 왼쪽 버튼으로 클릭한 상태에서 드래그하여 원하는 위치에 고정할 수 있습니다.
+* 프로젝트 노드 클릭
+
+
+	+ ***대시보드*** > ***애플리케이션 토폴로지*** 메뉴에서 노드를 클릭하면 해당 프로젝트의 애플리케이션 토폴로지(***인스턴스 토폴로지***)로 이동합니다.
+	+ 홈 화면 > ***통합 APP.그룹 토폴로지*** 메뉴에서 노드를 클릭하면 해당 프로젝트의 토폴로지 정보를 취득하고 현재 토폴로지에 표현합니다.
+* 하이라이트 필터링: 노드 및 노드와 인정한 링크를 필터링해 하이라이트할 수 있습니다.
